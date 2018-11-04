@@ -7,30 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb122faa-8e0d-4b43-926b-ec5aa5777c3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lucene/util/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lucene/util/DataSourceHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lucene/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lucene/util/DynamicDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lucene/util/PageEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lucene/util/StringUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/controller/SearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/pojo/LuceneIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/util/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/util/DataSourceHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/util/DynamicDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/util/PageEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/util/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/queryResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/queryResult.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/API.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/API.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/controller/HelloWorldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/controller/HelloWorldController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/dao/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/dao/BookMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/entity/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/filter/filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/filter/filter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/interceptor/interceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/interceptor/interceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/API/WEB-INF/classes/com/joofont/service/impl/BookServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joofont/controller/HelloWorldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joofont/controller/HelloWorldController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joofont/dao/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joofont/dao/BookMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joofont/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joofont/entity/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joofont/filter/filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joofont/filter/filter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joofont/interceptor/interceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joofont/interceptor/interceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joofont/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joofont/service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joofont/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joofont/service/impl/BookServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BookTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/API/WEB-INF/jsp/queryResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/API/WEB-INF/jsp/queryResult.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,43 +48,44 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="64" />
-          <entry key="jsp" value="4" />
+          <entry key="java" value="86" />
+          <entry key="jsp" value="6" />
           <entry key="log" value="1" />
           <entry key="properties" value="27" />
           <entry key="tld" value="2" />
-          <entry key="xml" value="98" />
+          <entry key="xml" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="64" />
-          <entry key="JSP" value="4" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="86" />
+          <entry key="JSP" value="6" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="27" />
-          <entry key="XML" value="100" />
+          <entry key="XML" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="6" />
           <entry key="gitignore" value="10" />
-          <entry key="java" value="1545" />
-          <entry key="jsp" value="48" />
+          <entry key="java" value="2034" />
+          <entry key="jsp" value="52" />
           <entry key="properties" value="66" />
-          <entry key="xml" value="689" />
+          <entry key="xml" value="723" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1545" />
-          <entry key="JSP" value="48" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="JAVA" value="2034" />
+          <entry key="JSP" value="52" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="Properties" value="66" />
           <entry key="SQL" value="8" />
-          <entry key="XML" value="681" />
+          <entry key="XML" value="715" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -107,42 +97,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/controller/HelloWorldController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/controller/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1494">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Lucene/pojo/LuceneIndex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1815">
-              <caret line="121" column="10" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4260#4266#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Lucene/controller/SearchController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="259">
+              <caret line="46" column="49" lean-forward="true" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,15 +112,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/queryResult.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4005">
-              <caret line="267" lean-forward="true" selection-start-line="267" selection-end-line="267" />
+            <state relative-caret-position="421">
+              <caret line="279" column="67" lean-forward="true" selection-start-line="279" selection-start-column="67" selection-end-line="279" selection-end-column="67" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Lucene/util/DateUtil.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="136" column="23" lean-forward="true" selection-start-line="136" selection-start-column="23" selection-end-line="136" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -170,9 +139,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Interface" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -192,6 +161,12 @@
       <find>RequestMappingHandlerMapping</find>
       <find>ResponseBody</find>
       <find>List</find>
+      <find>nav-top</find>
+      <find>searchBlog</find>
+      <find>userId</find>
+      <find>StandardAnalyzer</find>
+      <find>projectContext</find>
+      <find>highlighter</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java/com/joofont/dao</dir>
@@ -227,15 +202,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/joofont/dao/BookMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joofont/service/impl/BookServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/joofont/entity/Book.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/Lucene/pojo/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Lucene/util/DateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Lucene/pojo/LuceneIndex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Lucene/controller/SearchController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joofont/controller/HelloWorldController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Lucene/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joofont/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joofont/controller/SearchControllerDel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joofont/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joofont/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joofont/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joofont/pojo/LuceneIndex.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/queryResult.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joofont/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joofont/service/impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -266,7 +251,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="950" />
@@ -340,7 +325,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Lucene" type="462c0819:PsiDirectoryNode" />
+              <item name="joofont" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -349,7 +335,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Lucene" type="462c0819:PsiDirectoryNode" />
+              <item name="joofont" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="joofont" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -359,8 +355,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Lucene" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="joofont" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="joofont" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -376,14 +383,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -419,7 +418,7 @@
     <property name="SearchEverywhereHistoryKey" value="BookMapper&#9;FILE&#9;file:///Users/cuijun/code/ssm/src/main/resources/mapper/BookMapper.xml&#10;book&#9;FILE&#9;file:///Users/cuijun/code/ssm/src/main/java/com/joofont/entity/Book.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541321403250" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541341562678" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -429,6 +428,9 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.joofont.pojo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
       <recent name="$PROJECT_DIR$/src/main/java/com/Lucene" />
@@ -706,7 +708,7 @@
       <workItem from="1541121053551" duration="160000" />
       <workItem from="1541122085739" duration="3567000" />
       <workItem from="1541220689964" duration="966000" />
-      <workItem from="1541299965785" duration="4405000" />
+      <workItem from="1541299965785" duration="12904000" />
     </task>
     <servers />
   </component>
@@ -743,7 +745,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50405000" />
+    <option name="totallyTimeSpent" value="58904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -755,7 +757,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="950" extended-state="0" />
+    <frame x="0" y="24" width="1680" height="950" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -763,7 +766,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" sideWeight="0.5016779" side_tool="true" weight="0.1910867" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49832216" visible="true" weight="0.23137973" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49832216" visible="true" weight="0.22100122" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32947975" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32983682" />
@@ -776,8 +779,8 @@
       <window_info anchor="bottom" id="Debug with VisualVM" order="8" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="9" weight="0.32983682" />
       <window_info anchor="bottom" id="Message" order="10" />
-      <window_info anchor="bottom" id="Find" order="11" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.36596736" />
+      <window_info anchor="bottom" id="Find" order="11" weight="0.32983682" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.24475524" />
       <window_info anchor="bottom" id="Debug" order="13" weight="0.25524476" />
       <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
@@ -793,43 +796,6 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.1910867" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32983682" />
-      <window_info anchor="bottom" id="Spring" order="1" weight="0.32983682" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32983682" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32983682" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32983682" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="5" />
-      <window_info anchor="bottom" id="Java Enterprise" order="6" weight="0.32983682" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="9" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="10" weight="0.32983682" />
-      <window_info anchor="bottom" id="Message" order="11" />
-      <window_info anchor="bottom" id="Find" order="12" />
-      <window_info anchor="bottom" id="Run" order="13" visible="true" weight="0.28321677" />
-      <window_info anchor="bottom" id="Debug" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="15" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="16" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="17" weight="0.32983682" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" weight="0.15323566" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -838,11 +804,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.tld" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml" />
-    <entry file="file://$PROJECT_DIR$/target/classes/applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/target/classes/com/joofont/mapper/BookMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
     <entry file="jar://$USER_HOME$/.m2/repo-joofont/javax/servlet/jstl/1.2/jstl-1.2.jar!/META-INF/c.tld">
@@ -942,24 +903,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="57" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1004,13 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/entity/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1025,27 +965,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lucene/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lucene/util/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/queryResult.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4005">
-          <caret line="267" lean-forward="true" selection-start-line="267" selection-end-line="267" />
         </state>
       </provider>
     </entry>
@@ -1066,21 +989,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lucene/pojo/LuceneIndex.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="10" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
+        <state relative-caret-position="300">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/controller/SearchControllerDel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4260#4266#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Lucene/controller/SearchController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/entity/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="268">
+          <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1089,8 +1046,130 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/controller/HelloWorldController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        <state relative-caret-position="150">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/pojo/LuceneIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/util/DataSourceHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/util/DynamicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/util/PageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repo-joofont/org/apache/lucene/lucene-core/6.0.1/lucene-core-6.0.1.jar!/org/apache/lucene/document/StringField.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/queryResult.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="279" column="67" lean-forward="true" selection-start-line="279" selection-start-column="67" selection-end-line="279" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="46" column="49" lean-forward="true" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="136" column="23" lean-forward="true" selection-start-line="136" selection-start-column="23" selection-end-line="136" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

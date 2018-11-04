@@ -44,8 +44,6 @@
 </head>
 <body class="myElement" data="/SSM-WEB">
 <!-- 顶部导航栏 -->
-<jsp:include page="../../public/nav-top.jsp"></jsp:include>
-
 
 <div id="carousel-example-generic" class="carousel slide"
      data-ride="carousel">
@@ -116,7 +114,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <b>
-                                                    <a href="<%=path %>/user/showUser/${u.userId}">${u.username}</a>
+                                                    <a href="<%=path %>/user/showUser/${u.id}">${u.name}</a>
                                                 </b>
                                                 <br/>
                                                     ${u.description}
