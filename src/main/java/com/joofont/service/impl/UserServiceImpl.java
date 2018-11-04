@@ -3,7 +3,6 @@ package com.joofont.service.impl;
 import com.joofont.dao.UserMapper;
 import com.joofont.entity.User;
 import com.joofont.service.UserService;
-import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
@@ -15,14 +14,11 @@ import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.*;
-import org.apache.lucene.search.highlight.*;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.util.StringUtils;
 
-import java.io.StringReader;
 import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.List;
@@ -94,53 +90,22 @@ public class UserServiceImpl implements UserService {
          * username和description就是我们需要进行查找的两个字段
          * 同时在存放索引的时候要使用TextField类进行存放。
          */
-        QueryParser parser=new QueryParser("name",analyzer);
+        QueryParser parser=new QueryParser("name", analyzer);
         Query query=parser.parse(q);
-        QueryParser parser2=new QueryParser("description",analyzer);
+        QueryParser parser2=new QueryParser("description", analyzer);
         Query query2=parser2.parse(q);
         booleanQuery.add(query, BooleanClause.Occur.SHOULD);
         booleanQuery.add(query2, BooleanClause.Occur.SHOULD);
         TopDocs hits=is.search(booleanQuery.build(), 100);
-        QueryScorer scorer=new QueryScorer(query);
-        Fragmenter fragmenter = new SimpleSpanFragmenter(scorer);
-        /**
-         * 这里可以根据自己的需要来自定义查找关键字高亮时的样式。
-         */
-        SimpleHTMLFormatter simpleHTMLFormatter=new SimpleHTMLFormatter("<b><font color='red'>","</font></b>");
-        Highlighter highlighter=new Highlighter(simpleHTMLFormatter, scorer);
-        highlighter.setTextFragmenter(fragmenter);
+
+        // 结果集
         List<User> userList=new LinkedList<>();
         for(ScoreDoc scoreDoc:hits.scoreDocs){
             Document doc=is.doc(scoreDoc.doc);
             User user=new User();
             user.setId(Integer.parseInt(doc.get(("id"))));
-            user.setDescription(doc.get(("description")));
             user.setName(doc.get("name"));
             user.setDescription(doc.get("description"));
-//            String name=doc.get("name");
-//            String description=doc.get("description");
-//            if(name!=null){
-//                TokenStream tokenStream = analyzer.tokenStream("name", new StringReader(name));
-//                String husername=highlighter.getBestFragment(tokenStream, name);
-//                if(StringUtils.isEmpty(husername)){
-//                    user.setName(name);
-//                }else{
-//                    user.setName(husername);
-//                }
-//            }
-//            if(description!=null){
-//                TokenStream tokenStream = analyzer.tokenStream("description", new StringReader(description));
-//                String hContent=highlighter.getBestFragment(tokenStream, description);
-//                if(StringUtils.isEmpty(hContent)){
-//                    if(description.length()<=200){
-//                        user.setDescription(description);
-//                    }else{
-//                        user.setDescription(description.substring(0, 200));
-//                    }
-//                }else{
-//                    user.setDescription(hContent);
-//                }
-//            }
             userList.add(user);
         }
         return userList;

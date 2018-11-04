@@ -7,19 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb122faa-8e0d-4b43-926b-ec5aa5777c3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/controller/SearchController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/pojo/LuceneIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/util/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/util/DataSourceHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/util/DateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/util/DynamicDataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/util/PageEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lucene/util/StringUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/queryResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/queryResult.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/API.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/API.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/API/WEB-INF/jsp/queryResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/API/WEB-INF/jsp/queryResult.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joofont/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joofont/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,8 +37,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="gitignore" value="1" />
+          <entry key="class" value="3" />
+          <entry key="gitignore" value="2" />
           <entry key="java" value="86" />
           <entry key="jsp" value="6" />
           <entry key="log" value="1" />
@@ -60,10 +49,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
+          <entry key="CLASS" value="3" />
           <entry key="JAVA" value="86" />
           <entry key="JSP" value="6" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="27" />
           <entry key="XML" value="103" />
         </counts>
@@ -71,8 +60,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="gitignore" value="10" />
-          <entry key="java" value="2034" />
+          <entry key="gitignore" value="18" />
+          <entry key="java" value="2058" />
           <entry key="jsp" value="52" />
           <entry key="properties" value="66" />
           <entry key="xml" value="723" />
@@ -80,9 +69,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2034" />
+          <entry key="JAVA" value="2058" />
           <entry key="JSP" value="52" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="66" />
           <entry key="SQL" value="8" />
           <entry key="XML" value="715" />
@@ -124,8 +113,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="136" column="23" lean-forward="true" selection-start-line="136" selection-start-column="23" selection-end-line="136" selection-end-column="23" />
+            <state relative-caret-position="422">
+              <caret line="110" column="42" lean-forward="true" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,8 +154,9 @@
       <find>searchBlog</find>
       <find>userId</find>
       <find>StandardAnalyzer</find>
-      <find>projectContext</find>
       <find>highlighter</find>
+      <find>reader</find>
+      <find>projectContext</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java/com/joofont/dao</dir>
@@ -203,7 +193,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/joofont/service/impl/BookServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/joofont/entity/Book.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/Lucene/pojo/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Lucene/util/DateUtil.java" />
@@ -220,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/joofont/pojo/LuceneIndex.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/queryResult.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/joofont/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/joofont/service/impl/UserServiceImpl.java" />
       </list>
     </option>
@@ -418,7 +408,7 @@
     <property name="SearchEverywhereHistoryKey" value="BookMapper&#9;FILE&#9;file:///Users/cuijun/code/ssm/src/main/resources/mapper/BookMapper.xml&#10;book&#9;FILE&#9;file:///Users/cuijun/code/ssm/src/main/java/com/joofont/entity/Book.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541341562678" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541342041815" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -708,7 +698,7 @@
       <workItem from="1541121053551" duration="160000" />
       <workItem from="1541122085739" duration="3567000" />
       <workItem from="1541220689964" duration="966000" />
-      <workItem from="1541299965785" duration="12904000" />
+      <workItem from="1541299965785" duration="13291000" />
     </task>
     <servers />
   </component>
@@ -745,7 +735,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58904000" />
+    <option name="totallyTimeSpent" value="59291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,7 +770,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="9" weight="0.32983682" />
       <window_info anchor="bottom" id="Message" order="10" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.32983682" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.24475524" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.26456878" />
       <window_info anchor="bottom" id="Debug" order="13" weight="0.25524476" />
       <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
@@ -804,7 +794,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
     <entry file="jar://$USER_HOME$/.m2/repo-joofont/javax/servlet/jstl/1.2/jstl-1.2.jar!/META-INF/c.tld">
       <provider selected="true" editor-type-id="text-editor" />
@@ -948,13 +937,6 @@
             <element signature="e#7284#7285#0" expanded="true" />
             <element signature="e#7312#7313#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1163,10 +1145,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repo-joofont/org/apache/lucene/lucene-core/6.0.1/lucene-core-6.0.1.jar!/org/apache/lucene/search/BooleanClause.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joofont/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="136" column="23" lean-forward="true" selection-start-line="136" selection-start-column="23" selection-end-line="136" selection-end-column="23" />
+        <state relative-caret-position="422">
+          <caret line="110" column="42" lean-forward="true" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
