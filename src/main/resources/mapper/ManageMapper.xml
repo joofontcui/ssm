@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.joofont.dao.ManageMapper">
+
+    <resultMap id="BaseResultMap" type="com.joofont.entity.Manage" >
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="password" column="password"/>
+        <result property="role_id" column="roleId"/>
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id, `name`, password, role_id
+    </sql>
+
+    <select id="findUserByUsername" parameterType="String" resultMap="BaseResultMap">
+        select
+          <include refid="Base_Column_List"/>
+        from test_manage
+        where
+          name = #{name}
+    </select>
+
+    <select id="findRoles" parameterType="String" resultType="String">
+        select tr.name from test_manage as tm,test_role as tr where tm.role_id=tr.id and tm.name=#{name}
+    </select>
+
+    <select id="findPermissions" parameterType="String" resultType="String">
+        select tp.name from test_manage as tm,test_role as tr,test_permission as tp
+        where tm.role_id=tr.id and tp.role_id=tr.id and tm.name = #{name}
+    </select>
+
+</mapper>
