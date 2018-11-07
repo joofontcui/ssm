@@ -18,27 +18,28 @@ public class LoginController {
 
     @RequestMapping("/v1/admin")
     public String login(Manage manage, Model model){
-        Subject subject = SecurityUtils.getSubject() ;
-        UsernamePasswordToken token = new UsernamePasswordToken(manage.getName(), manage.getPassword()) ;
+        Subject subject = SecurityUtils.getSubject();
+        UsernamePasswordToken token = new UsernamePasswordToken(manage.getName(), manage.getPassword());
         try {
             subject.login(token);
-            return "admin" ;
-        }catch (Exception e){
-            model.addAttribute("error","用户名或密码错误") ;
-            return "login" ;
+            return "admin";
+        } catch (Exception e){
+            model.addAttribute("error","用户名或密码错误");
+            return "login";
         }
     }
     @RequestMapping("/admin")
     public String admin(){
         return "admin";
     }
+
     @RequestMapping("/student")
     public String student(){
-        return "admin" ;
+        return "admin";
     }
     @RequestMapping("/teacher")
     public String teacher(){
-        return "admin" ;
+        return "admin";
     }
 
 }

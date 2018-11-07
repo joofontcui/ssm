@@ -23,15 +23,6 @@
     </filter-mapping>
 
     <!-- 使用filter实现登录控制 -->
-    <!--<filter>-->
-        <!--<filter-name>SessionFilter</filter-name>-->
-        <!--<filter-class>com.joofont.filter.filter</filter-class>-->
-    <!--</filter>-->
-    <!--<filter-mapping>-->
-        <!--<filter-name>SessionFilter</filter-name>-->
-        <!--&lt;!&ndash; 所有的管理页面需要登录后才能访问 &ndash;&gt;-->
-        <!--<url-pattern>/views/*</url-pattern>-->
-    <!--</filter-mapping>-->
 
     <!-- shiro过滤器定义 -->
     <filter>

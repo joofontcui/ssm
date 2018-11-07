@@ -2,16 +2,12 @@ package com.joofont.pojo;
 
 import com.joofont.entity.Manage;
 import com.joofont.service.ManageService;
-import org.apache.shiro.authc.AuthenticationException;
-import org.apache.shiro.authc.AuthenticationInfo;
-import org.apache.shiro.authc.AuthenticationToken;
-import org.apache.shiro.authc.SimpleAuthenticationInfo;
+import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.util.StringUtils;
 
 import java.util.Set;
 
@@ -25,7 +21,8 @@ public class MyRealm extends AuthorizingRealm {
     private ManageService manageService;
 
     /**
-     * 用于的权限的认证
+     * 提供用户信息返回权限信息
+     * 注：AuthorizationInfo:角色的权限信息集合
      * @param principalCollection
      * @return
      */
@@ -41,7 +38,8 @@ public class MyRealm extends AuthorizingRealm {
     }
 
     /**
-     * 首先执行这个登录验证
+     * 提供账户信息返回认证信息
+     * 注：AuthenticationInfo：用户的角色信息集合
      * @param authenticationToken
      * @return
      * @throws AuthenticationException
@@ -53,13 +51,15 @@ public class MyRealm extends AuthorizingRealm {
         String name = authenticationToken.getPrincipal().toString();
 
         Manage manage = manageService.findUserByUsername(name);
+
         if (manage != null){
             //将查询到的用户账号和密码存放到 authenticationInfo用于后面的权限判断。第三个参数随便放一个就行了。
             AuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(manage.getName(),manage.getPassword(),
                     "a");
             return authenticationInfo;
         }else{
-            return  null;
+//            return  null;
+            throw new UnknownAccountException();
         }
     }
 
