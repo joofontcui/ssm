@@ -37,6 +37,7 @@ public class LoginController {
     public String student(){
         return "admin";
     }
+
     @RequestMapping("/teacher")
     public String teacher(){
         return "admin";
