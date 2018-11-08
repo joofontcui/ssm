@@ -852,3 +852,23 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 [INFO] [2018-11-06 23:29:03][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring/spring-service.xml]
 [INFO] [2018-11-06 23:29:03][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@627551fb: startup date [Tue Nov 06 23:29:03 CST 2018]; root of context hierarchy
 [INFO] [2018-11-06 23:29:04][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@627551fb: startup date [Tue Nov 06 23:29:03 CST 2018]; root of context hierarchy
+[INFO] [2018-11-08 12:02:28][org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean]Creating Service {http://cxf.joofont.com/}HelloJavaService from class com.joofont.cxf.HelloJava
+[ERROR] [2018-11-08 12:02:28][org.apache.cxf.transport.http.HTTPTransportFactory]Cannot find any registered HttpDestinationFactory from the Bus.
+[INFO] [2018-11-08 12:12:04][org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean]Creating Service {http://cxf.joofont.com/}HelloJavaService from class com.joofont.cxf.HelloJava
+[ERROR] [2018-11-08 12:12:05][org.apache.cxf.transport.http.HTTPTransportFactory]Cannot find any registered HttpDestinationFactory from the Bus.
+[INFO] [2018-11-08 15:14:31][org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean]Creating Service {http://cxf.joofont.com/}HelloJavaService from class com.joofont.cxf.HelloJava
+[ERROR] [2018-11-08 15:14:31][org.apache.cxf.transport.http.HTTPTransportFactory]Cannot find any registered HttpDestinationFactory from the Bus.
+[INFO] [2018-11-08 15:37:01][org.apache.cxf.endpoint.dynamic.DynamicClientFactory]Created classes: com.joofont.cxf.ObjectFactory, com.joofont.cxf.Say, com.joofont.cxf.SayResponse
+[INFO] [2018-11-08 15:53:52][org.apache.cxf.endpoint.dynamic.DynamicClientFactory]Created classes: com.joofont.cxf.ObjectFactory, com.joofont.cxf.Say, com.joofont.cxf.SayResponse
+[INFO] [2018-11-08 15:54:23][org.apache.cxf.endpoint.dynamic.DynamicClientFactory]Created classes: com.joofont.cxf.ObjectFactory, com.joofont.cxf.Say, com.joofont.cxf.SayResponse
+[INFO] [2018-11-08 15:54:57][org.apache.cxf.endpoint.dynamic.DynamicClientFactory]Created classes: com.joofont.cxf.ObjectFactory, com.joofont.cxf.Say, com.joofont.cxf.SayResponse
+[INFO] [2018-11-08 15:55:35][org.apache.cxf.endpoint.dynamic.DynamicClientFactory]Created classes: com.joofont.cxf.ObjectFactory, com.joofont.cxf.Say, com.joofont.cxf.SayResponse
+[INFO] [2018-11-08 15:58:07][org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean]Creating Service {http://cxf.joofont.com/}HelloJavaService from class com.joofont.cxf.HelloJava
+[ERROR] [2018-11-08 15:58:08][org.apache.cxf.transport.http.HTTPTransportFactory]Cannot find any registered HttpDestinationFactory from the Bus.
+[INFO] [2018-11-08 16:03:20][org.apache.cxf.endpoint.dynamic.DynamicClientFactory]Created classes: com.joofont.cxf.ObjectFactory, com.joofont.cxf.Say, com.joofont.cxf.SayResponse
+[INFO] [2018-11-08 16:06:32][org.apache.cxf.endpoint.dynamic.DynamicClientFactory]Created classes: com.joofont.cxf.ObjectFactory, com.joofont.cxf.Say, com.joofont.cxf.SayResponse
+[INFO] [2018-11-08 16:06:44][org.apache.cxf.endpoint.dynamic.DynamicClientFactory]Created classes: com.joofont.cxf.ObjectFactory, com.joofont.cxf.Say, com.joofont.cxf.SayResponse
+[INFO] [2018-11-08 16:12:18][org.apache.cxf.endpoint.dynamic.DynamicClientFactory]Created classes: com.joofont.cxf.ObjectFactory, com.joofont.cxf.Say, com.joofont.cxf.SayResponse
+[INFO] [2018-11-08 16:14:31][org.apache.cxf.endpoint.dynamic.DynamicClientFactory]Created classes: com.joofont.cxf.ObjectFactory, com.joofont.cxf.Say, com.joofont.cxf.SayResponse
+[INFO] [2018-11-08 16:20:37][org.apache.cxf.endpoint.dynamic.DynamicClientFactory]Created classes: com.joofont.cxf.ObjectFactory, com.joofont.cxf.Say, com.joofont.cxf.SayResponse
+[INFO] [2018-11-08 16:24:38][org.apache.cxf.endpoint.dynamic.DynamicClientFactory]Created classes: com.joofont.cxf.GetBook, com.joofont.cxf.GetBookResponse, com.joofont.cxf.ObjectFactory
