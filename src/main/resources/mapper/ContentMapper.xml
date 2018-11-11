@@ -19,7 +19,7 @@
         from create_date
     </select>
 
-    <insert id="insertSelective" parameterType="com.joofont.entity.Content" >
+    <insert id="insertContent" parameterType="com.joofont.entity.Content" >
         insert into test_content
         <trim prefix="(" suffix=")" suffixOverrides="," >
             <if test="id != null">

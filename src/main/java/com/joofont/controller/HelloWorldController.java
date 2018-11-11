@@ -78,11 +78,6 @@ public class HelloWorldController {
         return "bookList:" + bookList;
     }
 
-    @GetMapping("/chat/room")
-    public String chatRoom() {
-        return "websocket/websocket";
-    }
-
     private static int compareById(Book b1, Book b2) {
         if(b1.getId().equals(b2.getId())) {
             return b1.getCount().compareTo(b2.getCount());

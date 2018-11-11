@@ -2,6 +2,8 @@ package com.joofont.websocket;
 
 import com.joofont.entity.Content;
 import com.joofont.service.ContentService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.socket.server.standard.SpringConfigurator;
 
@@ -24,15 +26,19 @@ import java.util.concurrent.CopyOnWriteArraySet;
 @ServerEndpoint(value = "/websocket",configurator = SpringConfigurator.class)
 public class WebSocket {
 
+    //日志记录
+    private Logger logger = LoggerFactory.getLogger(WebSocket.class);
+
     //静态变量，用来记录当前在线连接数。应该把它设计成线程安全的。
     private static int onlineCount = 0;
+
 
     public WebSocket() {}
 
     @Autowired
     private ContentService contentService ;
 
-    //concurrent包的线程安全Set，用来存放每个客户端对应的MyWebSocket对象。
+    // concurrent包的线程安全Set，用来存放每个客户端对应的MyWebSocket对象。
     // 若要实现服务端与单一客户端通信的话，可以使用Map来存放，其中Key可以为用户标识
     private static CopyOnWriteArraySet<WebSocket> webSocketSet = new CopyOnWriteArraySet<WebSocket>();
 
@@ -63,7 +69,8 @@ public class WebSocket {
 
     /**
      * 收到客户端消息后调用的方法
-     * @param message 客户端发送过来的消息
+     * @param message 客户端发送过来的消息java socket推送
+     *
      * @param session 可选的参数
      */
     @OnMessage
@@ -91,31 +98,26 @@ public class WebSocket {
         error.printStackTrace();
     }
 
-    /**
-     * 这个方法与上面几个方法不一样。没有用注解，是根据自己需要添加的方法。
-     * @param message
-     * @throws IOException
-     */
-    public void sendMessage(String message) throws IOException{
+    private void sendMessage(String message) throws IOException{
         //保存数据到数据库
         Content content = new Content() ;
         content.setContent(message);
         SimpleDateFormat sm = new SimpleDateFormat("yyyy-MM-dd HH:mm:dd") ;
         content.setCreateDate(sm.format(new Date()));
-        contentService.insertSelective(content) ;
+        contentService.insertContent(content) ;
         this.session.getBasicRemote().sendText(message);
         //this.session.getAsyncRemote().sendText(message);
     }
 
-    public static synchronized int getOnlineCount() {
+    private static synchronized int getOnlineCount() {
         return onlineCount;
     }
 
-    public static synchronized void addOnlineCount() {
+    private static synchronized void addOnlineCount() {
         WebSocket.onlineCount++;
     }
 
-    public static synchronized void subOnlineCount() {
+    private static synchronized void subOnlineCount() {
         WebSocket.onlineCount--;
     }
 

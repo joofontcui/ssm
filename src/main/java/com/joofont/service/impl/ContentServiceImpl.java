@@ -24,7 +24,7 @@ public class ContentServiceImpl implements ContentService {
     }
 
     @Override
-    public int insertSelective(Content content) {
-        return contentMapper.insertSelective(content);
+    public int insertContent(Content content) {
+        return contentMapper.insertContent(content);
     }
 }

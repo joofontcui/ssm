@@ -21,6 +21,6 @@ public interface ContentMapper {
      * @param content
      * @return
      */
-    int insertSelective(Content content) ;
+    int insertContent(Content content) ;
 
 }
