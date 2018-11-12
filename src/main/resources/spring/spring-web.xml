@@ -48,7 +48,7 @@
 
     <!-- 5.配置拦截器 -->
 
-    <!-- +.webService -->
+    <!-- 6.webService -->
     <import resource="classpath:META-INF/cxf/cxf.xml"/>
     <import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
     <!-- 自动扫描webService -->

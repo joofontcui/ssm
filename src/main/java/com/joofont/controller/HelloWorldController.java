@@ -1,10 +1,13 @@
 package com.joofont.controller;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.joofont.entity.Book;
 import com.joofont.service.BookService;
-import org.apache.commons.collections.CollectionUtils;
+import com.joofont.util.RedisUtil;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,6 +28,9 @@ public class HelloWorldController {
     private static Logger logger = Logger.getLogger(HelloWorldController.class);
 
     @Autowired
+    private RedisTemplate redisTemplate;
+
+    @Autowired
     private BookService bookService;
 
     @GetMapping("/world")
@@ -41,6 +47,11 @@ public class HelloWorldController {
     @GetMapping("/book")
     public String helloBook(@RequestParam("id") Integer id, Model model) {
         Book book = bookService.getById(id);
+
+//        RedisUtil.set(redisTemplate, "bookTest", book.toString(), 60*60);
+//        Object book1 = RedisUtil.get(redisTemplate, "bookTest");
+//        return "Book:"+book1;
+
         model.addAttribute("book", book);
         return "book";
     }
@@ -48,7 +59,10 @@ public class HelloWorldController {
     @GetMapping("/books")
     @ResponseBody
     public String getBookList() {
+        PageHelper.startPage(0, 0);
         List<Book> bookList = bookService.getAllBooks();
+        PageInfo pageInfo = new PageInfo<>(bookList);
+
 //        List<Book> books = Arrays.asList(new Book(),new Book());
 
         // 在Java8之前，对集合排序只能创建一个匿名内部类
@@ -75,7 +89,7 @@ public class HelloWorldController {
 
         logger.info("bookList：" + bookList);
 
-        return "bookList:" + bookList;
+        return "pageInfo:" + pageInfo;
     }
 
     private static int compareById(Book b1, Book b2) {
