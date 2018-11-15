@@ -1,6 +1,7 @@
 package com.joofont.dao;
 
 import com.joofont.entity.User;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -11,5 +12,7 @@ import java.util.List;
 public interface UserMapper {
 
     List<User> getAllUserList();
+
+    User getUser(@Param("id") Integer id);
 
 }

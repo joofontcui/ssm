@@ -116,4 +116,9 @@ public class UserServiceImpl implements UserService {
         return userMapper.getAllUserList();
     }
 
+    @Override
+    public User getUser(Integer id) {
+        return userMapper.getUser(id);
+    }
+
 }

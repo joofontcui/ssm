@@ -20,4 +20,11 @@
         from test_user
     </select>
 
+    <select id="getUser" resultMap="BaseResultMap">
+        select
+          <include refid="Base_Column_List" />
+        from test_user
+        where id = #{id}
+    </select>
+
 </mapper>
