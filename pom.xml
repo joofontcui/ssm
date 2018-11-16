@@ -16,6 +16,12 @@
     <packaging>war</packaging>
 
     <dependencies>
+        <dependency>
+            <groupId>com.joofont</groupId>
+            <artifactId>ssm-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
         <!-- Spring -->
         <!-- 1)包含Spring 框架基本的核心工具类。Spring 其它组件要都要使用到这个包里的类，是其它组件的基本核心 -->
         <dependency>
@@ -216,10 +222,6 @@
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.joofont</groupId>
-            <artifactId>ssm-api</artifactId>
-        </dependency>
 
         <!--dubbo-->
         <dependency>
@@ -241,6 +243,17 @@
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
+        </dependency>
+
+        <!--javassist jar-->
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.datastax.cassandra</groupId>
+            <artifactId>cassandra-driver-core</artifactId>
         </dependency>
     </dependencies>
 

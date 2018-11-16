@@ -7,6 +7,7 @@
 	   http://code.alibabatech.com/schema/dubbo
 	   http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-	<dubbo:annotation package="com.joofont.api.impl" />
+    <!--配置扫描注解包的位置-->
+    <dubbo:annotation package="com.joofont.api.impl" />
 
 </beans>

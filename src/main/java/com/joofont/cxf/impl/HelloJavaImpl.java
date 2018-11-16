@@ -13,7 +13,7 @@ import javax.jws.WebService;
  * @version 1.0
  */
 @Component("helloJava")
-@WebService(endpointInterface="com.joofont.cxf.HelloJava", targetNamespace="http://cxf.joofont.com/")
+@WebService(endpointInterface="com.joofont.cxf.HelloJava", targetNamespace="http://cxf.com.joofont.com/")
 public class HelloJavaImpl implements HelloJava {
 
     @Autowired
