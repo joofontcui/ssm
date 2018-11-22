@@ -3,12 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:jaxws="http://cxf.apache.org/jaxws"
+       xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd
     http://www.springframework.org/schema/mvc
-    http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
+    http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
     <!-- 配置SpringMVC -->
 
     <!-- 0:解决responseBody乱码问题 -->
@@ -31,6 +32,9 @@
 
     <!-- 1.开启SpringMVC注解模式 -->
     <mvc:annotation-driven />
+
+    <!-- 开启切面编程功能 -->
+    <aop:aspectj-autoproxy proxy-target-class="true" />
 
     <!-- 2.静态资源默认servlet配置 (1)加入对静态资源的处理：js,gif,png (2)允许使用"/"做整体映射 告知SpringMVC的核心类dispatcher-servlet不要对此拦截，交由默认的servlet-handler处理-->
     <mvc:resources mapping="/resources/**" location="../../resources" />
@@ -55,4 +59,5 @@
     <context:component-scan base-package="com.joofont.cxf" />
     <!-- 定义webservice的发布接口  -->
     <jaxws:endpoint id="helloWorld" implementor="#helloJava" address="/HelloJava"></jaxws:endpoint>
+
 </beans>

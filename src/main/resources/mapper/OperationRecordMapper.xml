@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.joofont.dao.OperationRecordMapper">
+
+    <resultMap id="BaseResultMap" type="com.joofont.entity.OperationRecord">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="user_id" jdbcType="INTEGER" property="userId" />
+        <result column="platform" jdbcType="VARCHAR" property="platform" />
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+      id, `user_id`, platform, `create_time`
+    </sql>
+
+    <insert id="addOperationRecord" parameterType="com.joofont.entity.OperationRecord" >
+        insert into test_operation_record
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="id != null">
+                id,
+            </if>
+            <if test="contentName != null and contentName != ''">
+                user_id,
+            </if>
+            <if test="content != null and content != ''" >
+                platform,
+            </if>
+            <if test="createDate != null and createDate != ''">
+                create_time,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="id != null">
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="contentName != null and contentName != ''">
+                #{userId,jdbcType=VARCHAR},
+            </if>
+            <if test="content != null and content != ''" >
+                #{platform,jdbcType=VARCHAR},
+            </if>
+            <if test="createDate != null and createDate != ''">
+                #{createTime,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+
+</mapper>
