@@ -18,4 +18,6 @@ public interface UserService {
 
     User getUser(Integer id);
 
+    int updateById(User user);
+
 }

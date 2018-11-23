@@ -16,6 +16,26 @@ public class User {
 
     private String description ;
 
+    private Integer amount;
+
+    private Integer version;
+
+    public Integer getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Integer amount) {
+        this.amount = amount;
+    }
+
+    public Integer getVersion() {
+        return version;
+    }
+
+    public void setVersion(Integer version) {
+        this.version = version;
+    }
+
     public Integer getId() {
         return id;
     }

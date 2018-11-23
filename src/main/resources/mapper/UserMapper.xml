@@ -8,10 +8,12 @@
         <result column="age" jdbcType="INTEGER" property="age" />
         <result column="password" jdbcType="VARCHAR" property="password" />
         <result column="description" jdbcType="VARCHAR" property="description" />
+        <result column="amount" jdbcType="INTEGER" property="amount" />
+        <result column="version" jdbcType="INTEGER" property="version" />
     </resultMap>
 
     <sql id="Base_Column_List">
-      id, `name`, age, `password`, description
+      id, `name`, age, `password`, description, amount, version
     </sql>
 
     <select id="getAllUserList" resultMap="BaseResultMap">
@@ -26,5 +28,13 @@
         from test_user
         where id = #{id}
     </select>
+
+    <update id="updateById" parameterType="com.joofont.entity.User">
+      update test_user
+      SET amount = #{amount,jdbcType=INTEGER},
+          version= version + 1
+      WHERE id = #{id,jdbcType=INTEGER}
+          AND version = #{version,jdbcType=INTEGER}
+  </update>
 
 </mapper>

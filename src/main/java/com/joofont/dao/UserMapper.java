@@ -15,4 +15,6 @@ public interface UserMapper {
 
     User getUser(@Param("id") Integer id);
 
+    int updateById(User user);
+
 }
